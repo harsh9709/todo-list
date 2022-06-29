@@ -1,0 +1,39 @@
+body{
+    background-color: aquamarine;
+}
+
+.container
+
+        {
+            
+             background-color: rgb(41, 38, 207);
+           background-image: url('https://img.freepik.com/free-vector/3d-todo-list-document-todo-list-with-bell-notification-concept_238404-1394.jpg?w=2000');
+            border: 5px solid black;
+            border-radius: 30px;
+            height:fit-content; 
+            display: flexbox;
+          justify-items: center;
+            align-items: center;
+
+        }
+        .completed
+        {
+            text-decoration: line-through;
+        }
+
+        #remove{
+            background-color: crimson;
+            border-radius: 10px;
+        }
+        #clearlist{
+            background-color: rgb(20, 220, 37);
+            border-radius: 10px;
+        }
+        #savelist{
+            background-color: rgb(123, 20, 220);
+            border-radius: 10px;
+        }
+        #add{
+            background-color: rgb(177, 220, 20);
+            border-radius: 10px;
+        }
