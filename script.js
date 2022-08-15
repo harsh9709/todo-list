@@ -13,6 +13,7 @@ addbtn.addEventListener('click',add);
 
 function addNew(val,completed)
 {
+
     let element=document.createElement('li');
     let text=document.createTextNode(val);
 
@@ -22,6 +23,8 @@ function addNew(val,completed)
     }
     element.appendChild(text);
     ol.appendChild(element);
+   
+
     
 
     element.addEventListener('dblclick',toggle);
@@ -30,8 +33,10 @@ function add()
 {
     let val=input.value;
     let completed=false;
+    if (val=="") {
+        return null
+    }
     addNew(val,completed);
-
 
 }
 function toggle()

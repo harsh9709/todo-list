@@ -1,19 +1,22 @@
 body{
-    background-color: aquamarine;
+    background-color: rgb(116, 75, 160);
 }
 
 .container
 
         {
             
-             background-color: rgb(41, 38, 207);
-           background-image: url('https://img.freepik.com/free-vector/3d-todo-list-document-todo-list-with-bell-notification-concept_238404-1394.jpg?w=2000');
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+             background-image: linear-gradient(to right,rgb(184, 203, 74),rgb(89, 162, 240));
+
             border: 5px solid black;
             border-radius: 30px;
-            height:fit-content; 
-            display: flexbox;
-          justify-items: center;
-            align-items: center;
+                       width: 500px;
+                       text-align: center;
+                       padding-bottom: 30px;
 
         }
         .completed
@@ -36,4 +39,10 @@ body{
         #add{
             background-color: rgb(177, 220, 20);
             border-radius: 10px;
+        }
+        #list{
+            text-align: left;
+            text-transform: uppercase;
+            /* list-style: none; */
+            color: rgb(30, 11, 238);
         }
